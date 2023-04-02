@@ -1,0 +1,143 @@
+/* Set the background color to a light pink */
+body {
+  background-color: #c1fbe9;
+  margin: 0;
+}
+
+/* Use a sans-serif font for the entire website */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Style the headers with a rainbow gradient */
+h1, h2, h3, h4, h5, h6 {
+  background-image: linear-gradient(to right, #fbccc1, #ffebaf, #e0cdff, #fbc1f0, #ffebaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+/* Set the font size and line height for the headers */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+li{
+  margin: 2.5em 0;
+}
+
+.text-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Style links with a rainbow underline and increase their size */
+a {
+  color: #ff1e6;
+  position: relative;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(to right, #FFC3A0, #FFAFBD, #C1C8E4, #A2E8DD, #A7F0BA, #FFFAB6);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+/* Center the list of links */
+.link-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Style the input checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #FFC3A0;
+  outline: none;
+  transition: all 0.5s ease;
+  margin-right: 10px;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #FFC3A0;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox-list li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.checkbox-list label {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.checkbox-list input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+/* Define the footer class */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #5F5F5F;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
