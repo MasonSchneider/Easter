@@ -12,3 +12,11 @@ This puzzle was the year of "the box". It consisted of circuits that unlocked st
 ## 2020 - King has Risen
 
 This puzzle is "Tiger King" themed. It includes 4 puzzles that result in a name and a number (new member of the family, my sister's fiance). These answers corresponse to an order the faces are tapped on a website to get to the view to input a final password. This reveals the riddle to find the baskets.
+
+## 2021 - VR game
+
+This year the puzzle was a vr game that hid the next clue inside. The other clues were simple puzzles to figure out the game on the headset.
+
+## 2023 - ChatGPT React site
+
+This year the family is in Vegas so the puzzle is mostly web based. The first puzzle is a nanogram to solve for a QR code that points to a glitch.com site. The site has vegas challenges and a final riddle to the prize.
